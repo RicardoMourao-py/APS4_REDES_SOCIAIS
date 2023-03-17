@@ -1,0 +1,11 @@
+Arquivos:
+
+nodeId.edges : As arestas na rede ego para o nó 'nodeId'. Edges são direcionados para facebook, e direcionados (a segue b) para twitter e gplus. O nó 'ego' não aparece, mas supõe-se que eles sigam cada id de nó que aparece neste arquivo.
+
+nodeId.circles : O conjunto de círculos para o nó ego. Cada linha contém um círculo, consistindo em uma série de ids de nós. A primeira entrada em cada linha é o nome do círculo.
+
+nodeId.feat : Os recursos para cada um dos nós que aparecem no arquivo de borda.
+
+nodeId.egofeat : Os recursos para o usuário ego.
+
+nodeId.featnames : os nomes de cada uma das dimensões do recurso. Os recursos são '1' se o usuário tiver essa propriedade em seu perfil e '0' caso contrário. Este arquivo foi anonimizado para usuários do Facebook, pois os nomes dos recursos revelariam dados privados.
